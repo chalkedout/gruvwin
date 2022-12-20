@@ -1,0 +1,19 @@
+{
+    "version": "1.8.4",
+    "addonlistControls": {
+        "theme": {
+            "view": "grid",
+            "sort": "added",
+            "ascending": false
+        }
+    },
+    "drawerStates": {
+        "settings": {
+            "window": true,
+            "addons": true,
+            "customcss": true,
+            "editor": true,
+            "developer": true
+        }
+    }
+}

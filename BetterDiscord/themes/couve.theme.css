@@ -1,0 +1,61 @@
+/**
+ * @name Couve
+ * @author A user#8169, Nyria#3863
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version 2.0
+*/
+
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
+
+/* Settings */
+:root {
+    
+    /* Colors */
+    --main-color: #419e85;
+
+    /* Borders */
+    --avatar-radius: 200px;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+
+    /* BGs */
+    --background-primary: #282828;
+    --background-secondary: #282828;
+    --background-secondary-alt: #282828;
+    --background-secondary-alt-alt: #282828;
+    --background-tertiary: #548056;
+    
+    --deprecated-store-bg: var(--background-primary);
+    --background-floating: var(--background-secondary);
+
+    --colortransparency: #0003; 
+
+    /* Cards */
+    --card: #B8BB26;
+
+    /* Other stuff */
+    --textcolor: #DECFA8;
+    --epicshadow1: #fff3;
+}
+
+.theme-light {
+
+    /* BGs */
+    --background-primary: #fafafa;
+    --background-secondary: #f7f7f7;
+    --background-secondary-alt: #fff;
+    --background-secondary-alt-alt: #eee;
+    --background-tertiary: #fff;
+    
+    --colortransparency: #0001;
+
+    /* Cards */
+    --card: #aaaaaa;
+
+    /* Other stuff */
+    --textcolor: #000;
+    --epicshadow1: #0003;
+}

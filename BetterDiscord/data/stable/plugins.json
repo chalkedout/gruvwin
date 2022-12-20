@@ -1,0 +1,20 @@
+{
+    "BDFDB": false,
+    "ZeresPluginLibrary": false,
+    "Animations": false,
+    "BetterAnimations": false,
+    "Hide Channels": true,
+    "AppNotifications": true,
+    "KeyboardClick": true,
+    "OpenSteamLinksInApp": true,
+    "PluginRepo": false,
+    "ServerFolders": true,
+    "ThemeRepo": true,
+    "BetterFormattingRedux": true,
+    "BetterRoleColors": false,
+    "CallTimeCounter": true,
+    "AvatarHover": true,
+    "StatusEverywhere": false,
+    "OnlineFriendCount": false,
+    "BetterFriendList": true
+}

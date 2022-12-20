@@ -1,0 +1,43 @@
+{
+    "settings": {
+        "tabs": [
+            {
+                "name": "#🎉┃event-schedule",
+                "url": "/channels/528616752284696599/860560081145167883",
+                "selected": true,
+                "currentStatus": "none",
+                "iconUrl": "https://cdn.discordapp.com/icons/528616752284696599/5e9220304728eda3d2ad026fbcc047c9.webp?size=40",
+                "channelId": "860560081145167883"
+            }
+        ],
+        "favs": [],
+        "favGroups": [],
+        "showTabBar": true,
+        "showFavBar": false,
+        "reopenLastChannel": false,
+        "showFavUnreadBadges": true,
+        "showFavMentionBadges": true,
+        "showFavTypingBadge": true,
+        "showEmptyFavBadges": false,
+        "showTabUnreadBadges": true,
+        "showTabMentionBadges": true,
+        "showTabTypingBadge": true,
+        "showEmptyTabBadges": false,
+        "showActiveTabUnreadBadges": false,
+        "showActiveTabMentionBadges": false,
+        "showActiveTabTypingBadge": false,
+        "showEmptyActiveTabBadges": false,
+        "compactStyle": false,
+        "privacyMode": false,
+        "radialStatusMode": false,
+        "tabWidthMin": 79,
+        "showFavGroupUnreadBadges": true,
+        "showFavGroupMentionBadges": true,
+        "showFavGroupTypingBadge": true,
+        "showEmptyFavGroupBadges": false,
+        "showQuickSettings": true,
+        "showNavButtons": true,
+        "alwaysFocusNewTabs": false,
+        "useStandardNav": true
+    }
+}
