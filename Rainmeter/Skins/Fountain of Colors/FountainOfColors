@@ -1,0 +1,36 @@
+[Rainmeter]
+Update=-1
+Group=FountainOfColors
+ContextTitle="Options..."
+ContextAction=[!ToggleConfig "Fountain of Colors\Options" "visualizer.ini"]
+ContextTitle2="Edit variables"
+ContextAction2=["#@#Variables.inc"]
+LeftMouseUpAction=[!ToggleConfig "Fountain of Colors\Options" "visualizer.ini"]
+BackgroundMode=2
+SolidColor=0,0,0,1
+OnRefreshAction=[!WriteKeyValue Variables Angle "#Angle#" "#@#Variables.inc"][!WriteKeyValue Variables Invert "#Invert#" "#@#Variables.inc"][!WriteKeyValue Variables Channel "#Channel#" "#@#Variables.inc"][!WriteKeyValue Variables Port "#Port#" "#@#Variables.inc"][!WriteKeyValue Variables ID "#ID#" "#@#Variables.inc"][!WriteKeyValue Variables Config "#CURRENTCONFIG#" "#@#Variables.inc"][!ActivateConfig "Fountain of Colors\Initialize"]
+
+[Audio]
+Measure=Plugin
+Plugin=AudioLevelBeta
+Port=
+ID=
+Channel=
+FFTSize=2048
+FFTBufferSize=16384
+FFTAttack=0
+FFTDecay=0
+Bands=68
+FreqMin=20
+FreqMax=16744.03618 
+Sensitivity=63
+Type=BufferStatus
+DynamicVolume=0
+UpdatesPerSecond=-1
+OnUpdateAction=[!UpdateMeasureGroup Audio][!UpdateMeterGroup Bars][!Redraw]
+
+[Include]
+@Include2=
+@Include3=
+@Include4=
+@Include5=ghost.inc
